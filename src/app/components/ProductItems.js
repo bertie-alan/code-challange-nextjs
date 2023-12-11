@@ -16,11 +16,13 @@ import itemOneImg_sub1 from "../assets/item_1_sub1.png";
 import itemOneImg_sub2 from "../assets/item_1_sub2.png";
 import itemOneImg_sub3 from "../assets/item_1_sub3.png";
 import itemTwoImg from "../assets/item_2.png";
+import itemTwoImg_sub1 from "../assets/item_2_sub1.png";
+import itemTwoImg_sub2 from "../assets/item_2_sub2.png";
+import itemTwoImg_sub3 from "../assets/item_2_sub3.png";
 import itemThreeImg from "../assets/item_3.png";
-// import itemFourImg from "../assets/item_4.png";
-import personTwoImg from "../assets/person_2.png";
-import personThreeImg from "../assets/person_3.png";
-import personFourImg from "../assets/person_4.png";
+import itemThreeImg_sub1 from "../assets/item_3_sub1.png";
+import itemThreeImg_sub2 from "../assets/item_3_sub2.png";
+import itemThreeImg_sub3 from "../assets/item_3_sub3.png";
 
 export default function ProductItems() {
   return (
@@ -41,8 +43,6 @@ export default function ProductItems() {
             <HStack pl={"20px"} pr={"5px"} pb={"50px"}>
               <Box
                 maxW="380px"
-                // minH="1835px"
-                // maxH="1835px"
                 minH="1350px"
                 maxH="1350px"
                 borderWidth="1px"
@@ -50,13 +50,10 @@ export default function ProductItems() {
                 overflow="hidden"
               >
                 <Image
-                  //   mt={3}
-                  //   mx={"5px"}
                   maxW={"400px"}
                   maxH={"300px"}
                   width={"100%"}
                   height={"100%"}
-                  //   borderRadius="4000px"
                   src={itemOneImg.src}
                   alt="item 1"
                 />
@@ -95,7 +92,7 @@ export default function ProductItems() {
                     </Text>
                     <Image
                       mt={"20px"}
-                      ml={"45px"}
+                      ml={"35px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -106,7 +103,7 @@ export default function ProductItems() {
                       alt="item 1-sub2"
                     />
                     <Image
-                      ml={"45px"}
+                      ml={"35px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -117,7 +114,7 @@ export default function ProductItems() {
                       alt="item 1-sub1"
                     />
                     <Image
-                      ml={"45px"}
+                      ml={"35px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -150,167 +147,222 @@ export default function ProductItems() {
         </VStack>
 
         {/* item 2 */}
-        {/* <VStack>
+        <VStack>
           <Container maxW="5xl">
             <HStack pl={"20px"} pr={"5px"} pb={"50px"}>
               <Box
-                maxW="280px"
-                minH="515px"
-                maxH="515px"
+                maxW="380px"
+                minH="1350px"
+                maxH="1350px"
                 borderWidth="1px"
                 borderRadius="lg"
                 overflow="hidden"
-                borderColor={"yellow.700"}
               >
                 <Image
-                  mt={3}
-                  mx={3}
-                  maxW={"221px"}
-                  maxH={"221px"}
+                  maxW={"400px"}
+                  maxH={"300px"}
                   width={"100%"}
                   height={"100%"}
-                  borderRadius="4000px"
-                  src={personTwoImg.src}
-                  alt="person 2"
+                  src={itemTwoImg.src}
+                  alt="item 2"
                 />
 
-                <Box mt={2} p={"24px"} display="flex">
+                <Box mt={1} p={"24px"} display="flex">
                   <Box
                     fontWeight="semibold"
                     as="h3"
                     lineHeight="tight"
-                    noOfLines={1}
+                    noOfLines={3}
+                    fontSize={"16px"}
                   >
-                    Cody Dixon
+                    Winsor & Newton Calligraphy Ink, 30ml (1-oz) Bottle
                   </Box>
                 </Box>
                 <Box mt={"-47px"} p={"24px"} display="flex">
-                  <Box color={"orange.600"} fontSize={"13px"}>
-                    Global Brand Designer
+                  <Box color={"blue.700"} fontSize={"13px"}>
+                    IDR 110,000
                   </Box>
                 </Box>
-                <Box mt={"-40px"} p={"24px"} display="flex">
+                <Box mt={"-37px"} p={"24px"} display="flex">
                   <Box color={"gary.700"} fontSize={"13px"}>
-                    With more than 5 years experience in the industry,
-                    <br />
-                    Cody Dixon brought together the knowledge of a scientist and
-                    the creativity of the artist to offer a range of fine art
-                    paints, with choice of colour, clarity and permanence.
+                    <Text fontWeight={"bold"} color={"rgba(0, 0, 0, 0.64)"}>
+                      About this item
+                    </Text>
+                    <Text mt={"-15px"}>
+                      <br />
+                      📌 30ml bottle of Winsor & Newton Calligraphy Ink
+                      <br />
+                      📌Can be applied using dip pen and brush
+                      <br />
+                      📌Non-waterproof ensuring good flow characteristics to
+                      lessen clogging
+                      <br />
+                      📌Calligraphy Ink colours have a permanence rating of AA
+                      or A.
+                    </Text>
+                    <Image
+                      mt={"20px"}
+                      ml={"35px"}
+                      maxW={"240px"}
+                      maxH={"180px"}
+                      width={"100%"}
+                      height={"100%"}
+                      borderRadius="3px"
+                      boxShadow={"md"}
+                      src={itemTwoImg_sub1.src}
+                      alt="item 2-sub1"
+                    />
+                    <Image
+                      ml={"35px"}
+                      maxW={"240px"}
+                      maxH={"180px"}
+                      width={"100%"}
+                      height={"100%"}
+                      borderRadius="3px"
+                      boxShadow={"md"}
+                      src={itemTwoImg_sub2.src}
+                      alt="item 2-sub2"
+                    />
+                    <Image
+                      ml={"35px"}
+                      maxW={"240px"}
+                      maxH={"180px"}
+                      width={"100%"}
+                      height={"100%"}
+                      borderRadius="3px"
+                      boxShadow={"md"}
+                      src={itemTwoImg_sub3.src}
+                      alt="item 2-sub3"
+                    />
+                    <Box ml={"20px"} mt={"55px"}>
+                      Archer Wells
+                      <Image
+                        width={"38%"}
+                        height={"38%"}
+                        src={FiveStars.src}
+                        alt="5-stars rating"
+                      />
+                      <b>Consistent quality.</b>
+                      <br />I have been purchasing Winsor & Newton inks for
+                      years. I purchased this to use on black drawing paper.
+                      Works perfectly with my nib pen. Excellent application and
+                      looks beautiful. Very pleased with my purchase.
+                    </Box>
                   </Box>
                 </Box>
               </Box>
             </HStack>
           </Container>
-        </VStack> */}
+        </VStack>
 
         {/* item 3 */}
-        {/* <VStack>
+        <VStack>
           <Container maxW="5xl">
             <HStack pl={"20px"} pr={"5px"} pb={"50px"}>
               <Box
-                maxW="280px"
-                minH="515px"
-                maxH="515px"
+                maxW="380px"
+                minH="1350px"
+                maxH="1350px"
                 borderWidth="1px"
                 borderRadius="lg"
                 overflow="hidden"
-                borderColor={"red.600"}
               >
                 <Image
-                  mt={3}
-                  mx={3}
-                  maxW={"221px"}
-                  maxH={"221px"}
+                  maxW={"400px"}
+                  maxH={"300px"}
                   width={"100%"}
                   height={"100%"}
-                  borderRadius="4000px"
-                  src={personThreeImg.src}
-                  alt="person 3"
+                  src={itemThreeImg.src}
+                  alt="item 3"
                 />
 
-                <Box mt={2} p={"24px"} display="flex">
+                <Box mt={1} p={"24px"} display="flex">
                   <Box
                     fontWeight="semibold"
                     as="h3"
                     lineHeight="tight"
-                    noOfLines={1}
+                    noOfLines={3}
+                    fontSize={"16px"}
                   >
-                    Rosie Miller
+                    Professional Winsor & Newton Artists' Acrylic Color 12-Tube
+                    Set, 20ml
                   </Box>
                 </Box>
                 <Box mt={"-47px"} p={"24px"} display="flex">
-                  <Box color={"red.700"} fontSize={"13px"}>
-                    Front-End Developer
+                  <Box color={"blue.700"} fontSize={"13px"}>
+                    IDR 790,000
                   </Box>
                 </Box>
-                <Box mt={"-40px"} p={"24px"} display="flex">
+                <Box mt={"-37px"} p={"24px"} display="flex">
                   <Box color={"gary.700"} fontSize={"13px"}>
-                    With more than 6 years leadership experience in the
-                    technology industry,
-                    <br />
-                    Rosie Miller has a keen interest in animation and making
-                    things move with code, combined it just like art!
+                    <Text fontWeight={"bold"} color={"rgba(0, 0, 0, 0.64)"}>
+                      About this item
+                    </Text>
+                    <Text mt={"-15px"}>
+                      <br />
+                      📌12 x 20ml tubes of Artists' Professional Acrylic Paints
+                      <br />
+                      📌Winsor & Newton Professional Acrylic colours are
+                      unrivalled in their richness, intensity and depth of
+                      colour
+                      <br />
+                      📌Use with Winsor & Newton Professional Acrylic Brushes
+                      <br />
+                      📌For extra versatility, use with Winsor & Newton
+                      Professional Acrylic Mediums
+                    </Text>
+                    <Image
+                      mt={"20px"}
+                      ml={"35px"}
+                      maxW={"240px"}
+                      maxH={"180px"}
+                      width={"100%"}
+                      height={"100%"}
+                      borderRadius="3px"
+                      boxShadow={"md"}
+                      src={itemThreeImg_sub1.src}
+                      alt="item 3-sub1"
+                    />
+                    <Image
+                      ml={"35px"}
+                      maxW={"240px"}
+                      maxH={"180px"}
+                      width={"100%"}
+                      height={"100%"}
+                      borderRadius="3px"
+                      boxShadow={"md"}
+                      src={itemThreeImg_sub2.src}
+                      alt="item 3-sub2"
+                    />
+                    <Image
+                      ml={"35px"}
+                      maxW={"240px"}
+                      maxH={"180px"}
+                      width={"100%"}
+                      height={"100%"}
+                      borderRadius="3px"
+                      boxShadow={"md"}
+                      src={itemThreeImg_sub3.src}
+                      alt="item 3-sub3"
+                    />
+                    <Box ml={"20px"} mt={"55px"}>
+                      Haiden Griffiths
+                      <Image
+                        width={"38%"}
+                        height={"38%"}
+                        src={FiveStars.src}
+                        alt="5-stars rating"
+                      />
+                      <b>Five Stars</b>
+                      <br />
+                      What do you expect... Quality and that's what you get.
+                    </Box>
                   </Box>
                 </Box>
               </Box>
             </HStack>
           </Container>
-        </VStack> */}
-
-        {/* item 4 */}
-        {/* <VStack>
-          <Container maxW="5xl">
-            <HStack pl={"20px"} pr={"5px"} pb={"50px"}>
-              <Box
-                maxW="280px"
-                minH="515px"
-                maxH="515px"
-                borderWidth="1px"
-                borderRadius="lg"
-                overflow="hidden"
-                borderColor={"blue.500"}
-              >
-                <Image
-                  mt={3}
-                  mx={3}
-                  maxW={"221px"}
-                  maxH={"221px"}
-                  width={"100%"}
-                  height={"100%"}
-                  borderRadius="4000px"
-                  src={personFourImg.src}
-                  alt="person 4"
-                />
-
-                <Box mt={2} p={"24px"} display="flex">
-                  <Box
-                    fontWeight="semibold"
-                    as="h3"
-                    lineHeight="tight"
-                    noOfLines={1}
-                  >
-                    Skylar Barrett
-                  </Box>
-                </Box>
-                <Box mt={"-47px"} p={"24px"} display="flex">
-                  <Box color={"blue.600"} fontSize={"13px"}>
-                    Back-End Developer
-                  </Box>
-                </Box>
-                <Box mt={"-40px"} p={"24px"} display="flex">
-                  <Box color={"gary.700"} fontSize={"13px"}>
-                    With more than 7 years of leadership experience in the
-                    technology industry,
-                    <br />
-                    Skylar Barrett with a degree in fine art, loves all the
-                    creative projects he does. Also, his team is focused to
-                    unleash their great potentials anywhere.
-                  </Box>
-                </Box>
-              </Box>
-            </HStack>
-          </Container>
-        </VStack> */}
+        </VStack>
       </HStack>
     </>
   );
