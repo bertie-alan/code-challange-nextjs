@@ -92,7 +92,7 @@ export default function ProductItems() {
                     </Text>
                     <Image
                       mt={"20px"}
-                      ml={"35px"}
+                      ml={"30px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -103,7 +103,7 @@ export default function ProductItems() {
                       alt="item 1-sub2"
                     />
                     <Image
-                      ml={"35px"}
+                      ml={"30px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -114,7 +114,7 @@ export default function ProductItems() {
                       alt="item 1-sub1"
                     />
                     <Image
-                      ml={"35px"}
+                      ml={"30px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -202,7 +202,7 @@ export default function ProductItems() {
                     </Text>
                     <Image
                       mt={"20px"}
-                      ml={"35px"}
+                      ml={"30px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -213,7 +213,7 @@ export default function ProductItems() {
                       alt="item 2-sub1"
                     />
                     <Image
-                      ml={"35px"}
+                      ml={"30px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -224,7 +224,7 @@ export default function ProductItems() {
                       alt="item 2-sub2"
                     />
                     <Image
-                      ml={"35px"}
+                      ml={"30px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -313,7 +313,7 @@ export default function ProductItems() {
                     </Text>
                     <Image
                       mt={"20px"}
-                      ml={"35px"}
+                      ml={"30px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -324,7 +324,7 @@ export default function ProductItems() {
                       alt="item 3-sub1"
                     />
                     <Image
-                      ml={"35px"}
+                      ml={"30px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}
@@ -335,7 +335,7 @@ export default function ProductItems() {
                       alt="item 3-sub2"
                     />
                     <Image
-                      ml={"35px"}
+                      ml={"30px"}
                       maxW={"240px"}
                       maxH={"180px"}
                       width={"100%"}

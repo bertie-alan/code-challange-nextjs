@@ -18,7 +18,13 @@ export default function CompanyHistory() {
         {/* <VStack>
           <Box>
             <AspectRatio maxW="560px" ratio={1}>
-              <iframe title="naruto" src={AboutUsVideo.src} />
+              <iframe
+                title="winsor_newton"
+                src="https://drive.google.com/file/d/1oCOLtiqbD_IVa2d7orgrKUaLU87XLzTL/preview"
+                width="640"
+                height="480"
+                allow="autoplay"
+              ></iframe>
             </AspectRatio>
           </Box>
         </VStack> */}
