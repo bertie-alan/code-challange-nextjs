@@ -28,7 +28,12 @@ export default function Navbar() {
       >
         <Link href={"/"}>
           <Box ml={"85px"} mt={"1.7px"} maxW={"150px"}>
-            <Image width={"100%"} height={"100%"} src={logoImage.src} />
+            <Image
+              width={"100%"}
+              height={"100%"}
+              src={logoImage.src}
+              alt="logo icon image"
+            />
           </Box>
         </Link>
         <Link href={"/about"}>

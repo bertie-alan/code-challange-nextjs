@@ -26,6 +26,7 @@ export default function Hero() {
           height={"100%"}
           //   objectFit="cover"
           src={heroImage.src}
+          alt="heroBanner"
         />
         <Box mt={"-300px"} ml={"250px"} pb={"280px"} letterSpacing={"wide"}>
           <HStack>
