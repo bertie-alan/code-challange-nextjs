@@ -11,9 +11,9 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import imgProduct1 from "../assets/product_1.jpg";
-import imgProduct2 from "../assets/ink.png";
-import imgProduct3 from "../assets/acrylic.png";
+import imgProduct1 from "../assets/product_1.avif";
+import imgProduct2 from "../assets/ink.avif";
+import imgProduct3 from "../assets/acrylic.avif";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 
 export default function Products() {
