@@ -69,7 +69,7 @@ export default function Teams() {
                   </Box>
                 </Box>
                 <Box mt={"-40px"} p={"24px"} display="flex">
-                  <Box color={"gary.700"} fontSize={"13px"}>
+                  <Box color={"gray.700"} fontSize={"13px"}>
                     With more than 8 years of operations and project leadership
                     experience in the technology industry,
                     <br />
@@ -123,7 +123,7 @@ export default function Teams() {
                   </Box>
                 </Box>
                 <Box mt={"-40px"} p={"24px"} display="flex">
-                  <Box color={"gary.700"} fontSize={"13px"}>
+                  <Box color={"gray.700"} fontSize={"13px"}>
                     With more than 5 years experience in the industry,
                     <br />
                     Cody Dixon brought together the knowledge of a scientist and
@@ -177,7 +177,7 @@ export default function Teams() {
                   </Box>
                 </Box>
                 <Box mt={"-40px"} p={"24px"} display="flex">
-                  <Box color={"gary.700"} fontSize={"13px"}>
+                  <Box color={"gray.700"} fontSize={"13px"}>
                     With more than 6 years leadership experience in the
                     technology industry,
                     <br />
@@ -231,7 +231,7 @@ export default function Teams() {
                   </Box>
                 </Box>
                 <Box mt={"-40px"} p={"24px"} display="flex">
-                  <Box color={"gary.700"} fontSize={"13px"}>
+                  <Box color={"gray.700"} fontSize={"13px"}>
                     With more than 7 years of leadership experience in the
                     technology industry,
                     <br />

@@ -1,16 +1,16 @@
 import CompanyTagline from "../components/CompanyTagline";
 import Navbar from "../components/Navbar";
-import ProductItems from "../components/ProductItems";
+import RandomUsers from "../components/RandomUsers";
 
 export const metadata = {
-  title: "Our Products - W&N",
+  title: "Teams - W&N",
 };
 
-export default function Services() {
+export default async function TeamsRandom() {
   return (
     <>
       <Navbar />
-      <ProductItems />
+      <RandomUsers />
       <CompanyTagline />
     </>
   );
